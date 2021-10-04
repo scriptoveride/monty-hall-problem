@@ -3,7 +3,6 @@ import random
 prizedoor = random.randint(1, 3)
 
 listofdoors = [1, 2, 3]
-print("winning door is " + str(prizedoor))
 print("what door do you want to chose. 1, 2 or 3?")
 playerdoor = int(input())
 print("you chose door " + str(playerdoor))
